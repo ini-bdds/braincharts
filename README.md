@@ -13,7 +13,7 @@ which is currently under review.  You can reproduce the results of the paper by 
 Requirements:
 
   * R 3.3.3 or later
-  * GAMLSS, available by running install_packages("gamlss")
+  * GAMLSS, available by running install.packages("gamlss")
 
 Authors:
 
