@@ -12,14 +12,12 @@ which is currently under review.  You can reproduce the results of the paper by 
 
 Requirements:
 
-  R 3.3.3 or later
-  GAMLSS, available by running install_packages("gamlss")
+  * R 3.3.3 or later
+  * GAMLSS, available by running install_packages("gamlss")
 
 Authors:
 
-  Kristi Clark: kclark@ini.usc.edu
-  Ryan Cabeen: rcabeen@ini.usc.edu
+  * Kristi Clark: kclark@ini.usc.edu
+  * Ryan Cabeen: rcabeen@ini.usc.edu
 
-Date:
-
-  December 2017
+Date: December 2017
