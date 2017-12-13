@@ -1810,12 +1810,12 @@ CompareIndividual <- function (subjfile, gender, age, databasedir, databaseprefi
 
     cat("... setting up\n")
 
-    #subjfile="PNC0015_M10_FS_imaging.csv"
+    #subjfile="TEST_M10_FS_imaging.csv"
     #gender="M"
     #age=125
     #databasedir="output/models/none"
     #databaseprefix="PNC_PNG"
-    #outfile="PNC0015_M10_percentiles.csv"
+    #outfile="TEST_M10_percentiles.csv"
 
     # Error checking 
     if ((gender != "M") & (gender != "F")) {

@@ -54,10 +54,10 @@ echo "Evaluating single subject"
 ################################################################################
 
 echo lib/evaluate.R \
-  input/PNC0015_M10_FS_imaging.csv \
+  input/TEST_M10_FS_imaging.csv \
   M 125 \
   output/models/none PNC_PNG \
-  output/PNC0015_M10_FS_percentiles.csv
+  output/TEST_M10_FS_percentiles.csv
 
 ################################################################################
 echo "Plotting a morphometric"
