@@ -20,7 +20,7 @@ split_input <- function(imagfile, covfile, outdir)
 
     cat("... setting up\n")
 
-    #imagfile="PNC_PNG_FS_imaging.csv"
+    #imagfile="PNC_PNG_FS_imaging.csv.gz"
     #covfile="PNC_PNG_ages_gender_WBvals.csv"
     outlier_criteria = 3 # Number of IQR to be considered an outlier
 
