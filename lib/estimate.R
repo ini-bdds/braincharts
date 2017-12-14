@@ -1,4 +1,4 @@
-#!/usr/bin/env /usr/local/R-3.3.3/bin/Rscript
+#!/usr/bin/env Rscript
 ################################################################################
 #
 #  This script is a wrapper around an R script to estimate models for an 
