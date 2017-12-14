@@ -46,14 +46,14 @@ echo "Estimating models"
 
 for table in output/data/*data.csv; do
     echo "... processing: ${table}"
-    echo qsubcmd lib/estimate.R ${table} output/models
+    lib/estimate.R ${table} output/models
 done
 
 ################################################################################
 echo "Evaluating single subject"
 ################################################################################
 
-echo lib/evaluate.R \
+lib/evaluate.R \
   input/TEST_M10_FS_imaging.csv \
   M 125 \
   output/models/none PNC_PNG \

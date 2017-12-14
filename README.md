@@ -14,6 +14,7 @@ Requirements:
 
   * R 3.3.3 or later
   * GAMLSS, available by running install.packages("gamlss")
+  * ggplot, available by running install.packages("ggplot2")
 
 Authors:
 
