@@ -67,21 +67,20 @@ mkdir -p output/plots
 
 for gender in M F; do 
   for model in none normICV; do 
-    for metric in area thickness volume; do
+    for metric in area thickness; do
       a="PNC_PNG FS_aparc_2009"
-      b="PNC_PNG_FS_aparc_2009"
 
       lib/plot.R ${model} ${a} LeftHemi L ${metric} ${gender} \
-        output/plots/${model}_${b}_LeftHemi_L_${metric}_${gender}.pdf
+        output/plots/${model}_${a}_LeftHemi_L_${metric}_${gender}.pdf
 
       lib/plot.R ${model} ${a} RightHemi R ${metric} ${gender} \
-        output/plots/${model}_${b}_RightHemi_R_${metric}_${gender}.pdf
+        output/plots/${model}_${a}_RightHemi_R_${metric}_${gender}.pdf
     done
   done
 
-  c="EstimatedTotalIntraCranialVol"
-  lib/plot.R none PNC_PNG FS_aseg ${c} N volume ${gender} \
-    output/plots/none_PNC_PNG_FS_aseg_${c}_N_volume_${gender}.pdf
+  b="EstimatedTotalIntraCranialVol"
+  lib/plot.R none PNC_PNG FS_aseg ${b} N volume ${gender} \
+    output/plots/none_PNC_PNG_FS_aseg_${b}_N_volume_${gender}.pdf
 
   c="ctx-lh_precentral"
   d="area"
